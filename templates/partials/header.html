@@ -3,4 +3,6 @@
     <ul>
         <li><a href="#">Login</a></li>
     </ul>
-</header>
+    <form method="get" action="{% url "rooms:search" %}">
+        <input name="city" placeholder="Search by City" />
+    </form>
